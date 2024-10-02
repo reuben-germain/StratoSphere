@@ -49,3 +49,10 @@ img {
     overflow: auto;
     padding: 0 40px;
 }
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
