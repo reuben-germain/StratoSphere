@@ -98,6 +98,19 @@ img {
     justify-self: flex-end;
 }
 
+.showcase-form .form-control {
+    margin: 30px 0;
+}
+
+.showcase-form input[type="text"],
+.showcase-form input[type="email"] {
+    border: 0;
+    border-bottom: 1px solid #b4becb;
+    width: 100%;
+    padding: 3px;
+    font-size: 16px;
+}
+
 /* Utilities (Classes that will be used all around the website) */
 .container {
     max-width: 1100px;
