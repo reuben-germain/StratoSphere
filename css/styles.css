@@ -96,3 +96,13 @@ img {
     align-items: center;
     height: 100%;
 }
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /*Another way to write grid-template-columns is below*/
+    /* grid-template-columns: 1fr 1fr; */
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
