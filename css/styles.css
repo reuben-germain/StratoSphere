@@ -92,6 +92,10 @@ img {
     position: relative;
     top: 60px;
     height: 350px;
+    width: 400px;
+    padding: 40px;
+    z-index: 100;
+    justify-self: flex-end;
 }
 
 /* Utilities (Classes that will be used all around the website) */
