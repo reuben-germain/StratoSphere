@@ -125,6 +125,9 @@ img {
     left: 0;
     background: #fff;
     transform: skewY(-2deg);
+    -webkit-transform: skewY(-2deg);
+    -moz-transform: skewY(-2deg);
+    -ms-transform: skewY(-2deg);
 }
 
 /* Utilities (Classes that will be used all around the website) */
