@@ -117,13 +117,14 @@ img {
 
 .showcase::before,
 .showcase::after {
-    content: 'Yo';
+    content: '';
     position: absolute;
     height: 100px;
     bottom: -70px;
     right: 0;
     left: 0;
-    background: red;
+    background: #fff;
+    transform: skewY(-2deg);
 }
 
 /* Utilities (Classes that will be used all around the website) */
