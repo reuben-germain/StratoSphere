@@ -187,3 +187,8 @@ img {
 .languages .card:hover {
     transform: translateY(-15px); /* -15 makes the image move up, while if 15 will move down */
 }
+
+/* Footer */
+.footer .social a {
+    margin: 0 10px;
+}
