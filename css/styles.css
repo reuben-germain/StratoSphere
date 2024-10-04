@@ -217,6 +217,11 @@ img {
         justify-self: center;
         margin: auto;
     }
+
+    .cli .grid > *:first-child {
+        grid-column: 1;
+        grid-row: 1;
+    }
 }
 
 /* Mobile */
