@@ -192,3 +192,37 @@ img {
 .footer .social a {
     margin: 0 10px;
 }
+
+/* Tablets & under */
+@media(max-width: 768px) {
+    .showcase .grid {
+        grid-template-columns: 1fr;
+    }
+
+    .showcase-form {
+        width: 100%;
+    }
+
+    .showcase::before,
+    .showcase::after {
+        height: 50px;
+    }
+
+    .stats .grid {
+        grid-template-columns: 1fr;
+    }
+
+    .cli .grid {
+        grid-template-columns: 1fr;
+    }
+
+    .cloud .grid {
+        grid-template-columns: 1fr;
+    }
+
+    .languages .card {
+        flex: 1 1 50%;
+    }
+}
+
+/* Mobile */
