@@ -195,7 +195,9 @@ img {
 
 /* Tablets & under */
 @media(max-width: 768px) {
-    
+    body {
+        display: none; /* Hide the body to see where this MQ starts by resizing the browser*/
+    }
 }
 
 /* Mobile */
