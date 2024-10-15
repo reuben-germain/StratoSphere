@@ -198,6 +198,15 @@ img {
     width: 300px;
     justify-self: flex-end;
 }
+
+.features-main .card > i {
+    margin-right: 20px;
+}
+
+.features-main .grid {
+    padding: 30px;
+}
+
 /* Footer */
 .footer .social a {
     margin: 0 10px;
